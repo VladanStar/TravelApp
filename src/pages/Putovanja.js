@@ -91,7 +91,7 @@ const Putovanja = ({ setLocation, putovanja, searchDest, setSearchDest, sortiran
                         return (
                             <div className="col" key={idx}>
                                 <div className="card h-100">
-                                    <img src={'../img/' + putovanje.img} className="card-img-top" alt="..." />
+                                    <img src={'../img/' + putovanja.img} className="card-img-top" alt="..." />
                                     <div className="card-footer">
                                         <ul className="list-group list-group-flush">
                                             <li className="list-group-item">Destinacija: {putovanje.destinacija}</li>
