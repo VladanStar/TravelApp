@@ -1,6 +1,6 @@
 import {React, useEffect} from 'react';
 import { useLocation, useParams } from 'react-router-dom';
-
+import slika from "../img/italija.jpg"
 const Detalji = ({location, setLocation, putovanja}) => {
 
     let curLocation = useLocation();
@@ -20,7 +20,8 @@ const Detalji = ({location, setLocation, putovanja}) => {
                 <div className="card mb-3" >
                     <div className="row g-0">
                         <div className="col-md-6">
-                            <img src={'../img/' + putovanja[params.singleId].img} className="w-100 rounded-start" alt="..."/>
+                            <img src={'../img/' + putovanja[params.singleId].img} className="w-100 rounded-start" alt="..."/> 
+                            {/* <img src={slika} className="w-100 rounded-start" alt="..."/> */}
                         </div>
                         <div className="col-md-6 d-flex flex-column">
                             <div className="card-body">
