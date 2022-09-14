@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
-import filter from '../uitlis/filter';
+import filter from '../utils/filter';
 
 const Putovanja = ({ setLocation, putovanja, searchDest, setSearchDest, sortiranje, setSortiranje }) => {
 
